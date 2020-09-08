@@ -1,9 +1,12 @@
 # ansible-yay
 
+An unpatching fork of mnussbaum's ansible-yay that removes make dependencies and will do yay -Swyu as well
+
 An Ansible module for installing [AUR](https://aur.archlinux.org/) packages via
 the [yay][yay] AUR helper.
 
 This assumes your target node already has yay and its dependecies installed.
+
 
 ## Dependencies (Managed Node)
 
